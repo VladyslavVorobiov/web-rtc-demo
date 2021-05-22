@@ -126,6 +126,7 @@ answerButton.onclick = async () => {
   const answerCandidates = callDoc.collection('answerCandidates');
   const offerCandidates = callDoc.collection('offerCandidates');
 
+  // Get candidates for callee, save to db
   pc.onicecandidate = event => {
     event.candidate && answerCandidates.add(event.candidate.toJSON());
   };
