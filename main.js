@@ -4,12 +4,12 @@ import firebase from 'firebase/app';
 import 'firebase/firestore';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDAYY13wyEA0N72AvscAPKFVIXh7vrvpfM",
+  apiKey: "",
   authDomain: "webrtc-demo-bdb60.firebaseapp.com",
   projectId: "webrtc-demo-bdb60",
   storageBucket: "webrtc-demo-bdb60.appspot.com",
-  messagingSenderId: "738860677497",
-  appId: "1:738860677497:web:6ad4cba95186c0fb6057a8"
+  messagingSenderId: "",
+  appId: ""
 };
 
 if (!firebase.apps.length) {
